@@ -1,0 +1,27 @@
+main {
+  padding: 10px 20px;
+}
+
+.page-notice {
+  margin-top: 90px;
+  text-align: center;
+  padding: 12px 0;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.page-notice i {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.channel-fold {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  color: var(--light-color2);
+}
+
+.channel {
+  border-top: 1px solid var(--light-color);
+}

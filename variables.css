@@ -1,0 +1,11 @@
+:root {
+  --main-color: #3d3242;
+  --sub-color: #1c1a30;
+  --no2-color: #857173;
+  --no3-color: #869eaa;
+  --no4-color: #dbc0ad;
+  --accent: #9b1b28;
+  --light-color: rgba(134, 158, 170, 0.15);
+  --light-color2: rgba(134, 158, 170);
+  --gray: rgba(0, 0, 0, 0.3);
+}

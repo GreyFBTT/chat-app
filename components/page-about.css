@@ -1,0 +1,66 @@
+.page-about {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 20px;
+  padding: 20px 20px 10px 20px;
+  box-sizing: border-box;
+  font-size: 24px;
+  background-color: white;
+  font-family: "BMJUA";
+}
+
+.page-about__icons i,
+.page-about__icons a {
+  margin-left: 14px;
+  color: var(--sub-color);
+}
+
+.page-about__text {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--sub-color);
+}
+
+/* settings & 실제 채팅 헤더 */
+.inside-header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  font-family: "BMJUA";
+}
+
+.inside-header__column {
+  width: 33%;
+}
+
+.inside-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.inside-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@keyframes gear {
+  from {
+    transform: rotate(0.5turn);
+  }
+  to {
+    transform: rotate (0);
+  }
+}
+
+.fa-gear:hover {
+  animation: gear 1s ease-in-out infinite;
+}

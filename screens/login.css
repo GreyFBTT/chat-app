@@ -1,0 +1,75 @@
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.welcome-header__title {
+  font-size: 26px;
+  font-family: "BMJUA";
+}
+
+.welcome-header__text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#login-form input {
+  border: none;
+  font-size: 16px;
+  padding: 16px 0;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid var(--light-color);
+}
+
+#login-form input:not([type="submit"]):focus {
+  border-bottom: 1px solid black;
+}
+
+#login-form input[type="submit"] {
+  background-color: var(--no2-color);
+}
+
+#login-form input[type="submit"]:hover {
+  background-color: var(--main-color);
+}
+#login-form a {
+  text-align: center;
+  font-size: 14px;
+}
+
+#splash-screen {
+  background-color: var(--main-color);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  animation: hideSplashScreen 3.5s ease-in-out forwards;
+}
+
+#splash-screen i {
+  color: white;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

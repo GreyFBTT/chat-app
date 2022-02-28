@@ -1,0 +1,130 @@
+.chatting {
+  background-color: var(--no3-color);
+}
+
+.chatting .status-bar {
+  background-color: var(--no3-color);
+}
+
+.date {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.date > span {
+  width: 100px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: var(--gray);
+  color: white;
+  padding: 4px 12px;
+  font-size: 14px;
+}
+
+.opponent-chat {
+  padding-top: 30px;
+  display: flex;
+}
+
+.opponent-chat img {
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  margin-right: 10px;
+}
+
+.message__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.message__name {
+  margin-bottom: 6px;
+}
+
+.message__text {
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  background-color: white;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__time {
+  text-align: start;
+  margin: 0 10px;
+}
+
+.my-chat {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.my-chat .message__text {
+  border-top-right-radius: 0;
+  border-top-left-radius: 10px;
+}
+
+.reply {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 30px;
+  padding: 6px 10px;
+  background-color: white;
+}
+
+.reply__column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.reply__column:first-child {
+  width: 10%;
+}
+
+.reply__column:last-child {
+  width: 90%;
+}
+
+.reply input {
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+  padding: 0 10px;
+  border: 1px solid var(--gray);
+}
+
+.reply__column .buttons {
+  position: absolute;
+  display: flex;
+  right: 7px;
+  top: 7px;
+}
+
+.reply__column button {
+  border-radius: 50%;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  font-size: 14px;
+}
+
+.reply__column button:nth-child(2) {
+  background-color: var(--no4-color);
+}
