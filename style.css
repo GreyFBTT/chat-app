@@ -35,4 +35,5 @@
 
 #main__second-style {
   margin-top: 30px;
+  z-index: 1;
 }
