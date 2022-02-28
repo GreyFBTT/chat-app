@@ -58,17 +58,20 @@
   justify-content: center;
   align-items: center;
   font-size: 120px;
-  animation: hideSplashScreen 3.5s ease-in-out forwards;
+  animation: hideSplashScreen 2s ease-in-out forwards;
 }
 
 #splash-screen i {
   color: white;
 }
 @keyframes hideSplashScreen {
-  from {
+  0% {
     opacity: 1;
   }
-  to {
+  50% {
+    opacity: 1;
+  }
+  100% {
     opacity: 0;
     visibility: hidden;
   }
