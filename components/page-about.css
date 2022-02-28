@@ -36,6 +36,13 @@
   box-sizing: border-box;
   padding: 10px 20px;
   font-family: "BMJUA";
+  z-index: 99;
+  top: 26px;
+}
+
+.chatting .inside-header {
+  background-color: var(--no3-color);
+  z-index: 999;
 }
 
 .inside-header__column {
