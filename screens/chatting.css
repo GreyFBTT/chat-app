@@ -215,7 +215,7 @@
 .reply__column .buttons {
   position: absolute;
   display: flex;
-  right: -5px;
+  right: -11px;
   top: 7px;
 }
 
@@ -224,7 +224,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  margin-left: 5px;
+  margin-left: 2px;
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -237,13 +237,12 @@
   background-color: var(--no4-color);
 }
 
-.reply:focus-within .reply__column:first-child,
-.reply:focus-within .fa-face-laugh-beam {
+.reply:focus-within .reply__column:first-child {
   opacity: 0;
 }
 
 .reply:focus-within input {
-  width: 90vw;
+  width: 95vw;
   transform: translateX(-10%);
 }
 
